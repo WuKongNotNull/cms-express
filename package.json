@@ -1,0 +1,28 @@
+{
+  "name": "CMS-2",
+  "version": "1.0.0",
+  "description": "该系统是一个内容管理系统，主要针对后端项目，无前端代码",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "CMS",
+    "mySql"
+  ],
+  "author": "悟空非空也",
+  "license": "ISC",
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "express-jwt": "^7.6.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3"
+  }
+}
